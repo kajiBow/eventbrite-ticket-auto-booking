@@ -55,7 +55,7 @@ POLL_INTERVAL = 1.8
 CHECKOUT_BASE_URL = f'https://www.eventbrite.com/e/{EVENT_ID}'
 
 # API応答をJSONファイルに保存するかどうか（1: 保存する, 0: 保存しない）
-SAVE_JSON_RESPONSE = 1
+SAVE_JSON_RESPONSE = 0
 
 # 並列取得を有効化するかどうか（1: 有効, 0: 無効）
 # 有効にすると高速ですが、API負荷が高くなります
