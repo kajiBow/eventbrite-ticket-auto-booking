@@ -1,7 +1,8 @@
 # Eventbrite チケット自動予約システム
 claudeで作成しました。
 Eventbriteのチケットの空き状況を自動的に監視し、空き枠が見つかった際に自動的に予約を試みるシステムです。
-(seleniumによる操作は一部のフォーマットのみ対応です。)check Availability→カレンダー選択→枚数選択→Register
+(seleniumによる操作は一部のフォーマットのみ対応です。)
+例：check Availability→カレンダー選択→枚数選択→Register
 
 ## 機能
 
