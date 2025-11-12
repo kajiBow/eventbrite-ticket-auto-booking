@@ -1,0 +1,45 @@
+# Environment variables (contains sensitive information)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Screenshots and debug files
+error_screenshot_*.png
+iframe_screenshot_*.png
+response_*.json
+
+# OS
+.DS_Store
+Thumbs.db
