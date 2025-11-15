@@ -148,7 +148,7 @@ eventbrite/
 
 ## 📌 課題
 
-- [ ] (SOLD_OUT→Unavailable→available→Unavailable→SOLD_OUT)このような挙動をしているから、
+- [ ] (SOLD_OUT→Unavailable→available→Unavailable→SOLD_OUT)このような挙動をしているから、  
       soldoutのときはゆっくりget(5~10秒間隔？)  
       getsoldoutからunavailableに変わったのを検知したら、0.5s間隔で早くgetするようにする。
 
