@@ -157,4 +157,6 @@ eventbrite/
       48,000 calls/day
       https://www.eventbrite.com/platform/docs/rate-limits
 
+- [ ] 初回起動時は動作が不安定なので一度落としてから使ってください。
+
 
