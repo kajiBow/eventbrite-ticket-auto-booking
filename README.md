@@ -155,6 +155,6 @@ eventbrite/
       The default limit is:
       2,000 calls/hour
       48,000 calls/day
-      https://www.eventbrite.com/platform/docs/rate-limits
+[EventBrite-Rate Limits](https://www.eventbrite.com/platform/docs/rate-limits)
 
 
