@@ -149,8 +149,8 @@ eventbrite/
 ## 📌 課題
 
 - [ ] (SOLD_OUT→Unavailable→available→Unavailable→SOLD_OUT)このような挙動をしているから、
-      soldoutのときはゆっくりget
-      getsoldout→unavailableのとき、0.5s間隔でgetするようにする。
+      soldoutのときはゆっくりget(5~10秒間隔？)  
+      getsoldoutからunavailableに変わったのを検知したら、0.5s間隔で早くgetするようにする。
 
       The default limit is:
       2,000 calls/hour
