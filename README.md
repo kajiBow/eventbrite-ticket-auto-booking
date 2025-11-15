@@ -143,3 +143,18 @@ eventbrite/
 ## 免責事項
 
 このツールは教育目的で作成されています。このツールの使用によって生じたいかなる問題についても、作者は責任を負いません。
+
+---
+
+## 📌 課題
+
+- [ ] (SOLD_OUT→Unavailable→available→Unavailable→SOLD_OUT)このような挙動をしているから、
+      soldoutのときはゆっくりget
+      getsoldout→unavailableのとき、0.5s間隔でgetするようにする。
+
+      The default limit is:
+      2,000 calls/hour
+      48,000 calls/day
+      https://www.eventbrite.com/platform/docs/rate-limits
+
+
